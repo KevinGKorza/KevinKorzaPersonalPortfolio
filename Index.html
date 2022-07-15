@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,103 +11,82 @@
 
   
   </head>
-
-  <body>
-    <header>
+   <body>
+    <div class="container">
+     <nav class="navbar">
+     <ul>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Resources">Resources</a></li>
+      <li><a href="#Contact">Contact</a></li>
+     </ul>
+     </nav>
+     <section id="Home">
       <h1>Kevin Korza's Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Resources</a></li>
-        </ul>
-      </nav>
-    </header>
+      <img src="ProfilePic.jpg" alt="Profile Pic"
+      width="300"
+      height="400"/>
+      <p>Hello! Welcome to my portfolio! My name is Kevin Korza 
+        and I am a graduate of The University of Connecticut 
+        where I have received my Bachelor's degree in Communication!
+        My background includes Production, Media, Editing, Writing, Graphic Design, and Marketing! </p>
+       </section>
 
-    <main>
-      <section>
-        <article>
-          <h2>About Me:</h2>
-          <div>
-            <p>
-              Hello! Welcome to my portfolio! My name is Kevin Korza 
-              and I am a graduate of The University of Connecticut 
-              where I have received my Bachelor's degree in Communication!
-              
-
-
-
-
-
-              
-              
-            </p>
-
-
-
-
-
-            <img src="ProfilePic.jpg" alt="Profile Picture"
-            width="400"
-            height="500"
-            />
-            <p>About Me:</p>
-            <ul>
-              <li>Team Player</li>
-              <li>Goal Oriented Individual</li>
-              <li>Easy and Quick Learner</li>
-              <li>Self Starter</li>
-              <li>Love to Learn Skills</li>
-              <li>Creative</li>
-              <li>Native Nutmegger</li>
-                
-                
-                
-                
-            
+       <section id="About">
+        <h1></h1>
+        <p 
+          <ul>
+            <li>Team Player</li>
+            <li>Goal Oriented Individual</li>
+            <li>Easy and Quick Learner</li>
+            <li>Self Starter</li>
+            <li>Love to Learn Skills</li>
+            <li>Creative</li>
+            <li>Native Nutmegger</li>
             </ul>
-          </div>
-        </article>
-        <article>
-          <h2>Resources:</h2>
-          <div>
-            <li> Linkedin Profile: <a href="https://www.linkedin.com/in/kevin-korza-344016134/"> Visit my account!</a></li>
-            <li> Twitter Account: <a href="https://twitter.com/KevinGKorza"> Tweet at me!</a></li>
+          </p>
+         </section>
 
+         <section id="Resources">
+          <h1></h1>
+          <p>
+            <ol>
+            <li><a href="https://www.linkedin.com/in/kevin-korza-344016134/">My Linkedin Profile</a></li>
+            <Li><a href="https://twitter.com/KevinGKorza">My Twitter Account</a></Li>
+            <br>
+            <br>
+            <iframe width="400" height="400" src="https://www.youtube.com/embed/DzQS9r_1akM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </ol>
+             </p>
+           </section>
 
-            <p class="one">
-              This text currently has a 'font-weight' of 900, 'font-family' of
-              sans-serif, and 'font-style' of oblique.
+           <section id="Contact">
+            <h1></h1>
+            <p>
+              <br>
+              <br>
+              <div class="container"
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your First Name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your Last Name..">
+            
+                <label for="country">State</label>
+                <select id="country" name="State">
+                  <option value="Connecticut">Connecticut</option>
+                  <option value="Florida">Florida</option>
+                  <option value="California">California</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px"></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
+            </div>
             </p>
-            <p class="two">
-              This text currently has a 'font-weight' of 500, 'font-family' of
-              serif, and 'font-style' of italic.
-            </p>
-            <p class="three">
-              This text currently has a 'font-weight' of 100, 'font-family' of
-              monospace, and 'font-style' of normal.
-            </p>
-            <p class="four">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-              excepturi temporibus rem adipisci optio rerum facere blanditiis,
-              ipsam iure esse accusantium eligendi aut est deserunt. In,
-              praesentium at. Inventore, consequatur!
-            </p>
-          </div>
-        </article>
-      </section>
-      <aside>
-        <h2>Sign up to Learn More!</h2>
-        <form>
-          <input type="text" placeholder="E-mail address" />
-          <button>Submit</button>
-        </form>
-      </aside>
-    </main>
-
-    <footer>
-      <span>Thanks for visiting!</span>
-    </footer>
-  </body>
-</html>
+             </section>
+             </body>
+           </html>
