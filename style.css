@@ -73,16 +73,17 @@ section p {
 
 section#Home {
   background-color: crimson;
+  font-size: medium;
 }
 
 section#About {
   background-color: dodgerblue;
+  font-size: x-large;
 }
 
 section#Resources {
   background-color: crimson;
   padding: 10px;
-  border: 2px crimson;
 }
 
 section#Contact {
@@ -106,3 +107,4 @@ section#Contact {
     text-align: center;
   }
 
+}
