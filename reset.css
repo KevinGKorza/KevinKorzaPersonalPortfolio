@@ -31,7 +31,7 @@ pre, code {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: red;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -40,8 +40,8 @@ input[type=submit] {
   
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
+input[type=submit]:hover {               /* When you hover over the Submit option under the "Contact" section, it changes the color */
+  background-color: darkblue;
 }
 
 
