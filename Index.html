@@ -15,13 +15,13 @@
     <div class="container"> <!--the container class wraps everything up and makes it possible for the UI to go to specific sections-->
      <nav class="navbar"> <!--We needed a navigation bar so I used the "navbar" class-->
      <ul>
-      <li><a href="#Home">Home</a></li> <!--these list items are what you see when you look at the page (Home, About, Resources, Contact)-->
+      <li><a href="#Home">Home</a></li> <!--these list items are what you see when you look at the page (Home, About, Resources, Contact) and when you click them, the UI scrolls to the specified part-->
       <li><a href="#About">About</a></li>
       <li><a href="#Resources">Resources</a></li>
       <li><a href="#Contact">Contact</a></li>
      </ul>
      </nav>
-     <section id="Home"> <!--these sections communicate/link with the list items in the Navigation bar above-->
+     <section id="Home"> <!--these sections (Home, About, Resources, and Contact) communicate/link with the list items in the Navigation bar above-->
       <h1>Kevin Korza's Portfolio</h1>
       <img src="ProfilePic.jpg" alt="Profile Pic"
       width="300"
@@ -36,7 +36,7 @@
         <h1></h1>
         <p 
           <ul>
-            <li>Team Player</li>
+            <li>Team Player</li>  <!--I wanted this to be in a list form so I added <li> (to make it in a list form) -->
             <li>Goal Oriented Individual</li>
             <li>Easy and Quick Learner</li>
             <li>Self Starter</li>
@@ -47,11 +47,11 @@
           </p>
          </section>
 
-         <section id="Resources">
+         <section id="Resources"> <!--the resources section is where I linked my linkedin account and twitter account using <li> and I made a quick graphic that once you click it, it links to an "application"-->
           <h1></h1>
           <p>
             <ol>
-            <li><a href="https://www.linkedin.com/in/kevin-korza-344016134/">My Linkedin Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/kevin-korza-344016134/">My Linkedin Profile</a></li> 
             <br>
             <Li><a href="https://twitter.com/KevinGKorza">My Twitter Account</a></Li>
             <br>
@@ -65,14 +65,14 @@
              </p>
            </section>
 
-           <section id="Contact">
+           <section id="Contact"> <!-- For the Contact section, with the help of previous class work and W3School, I found a wonderful Contact Form-->
             <h1></h1>
             <p>
               <br>
               <br>
               <br>
               <br>
-              <div class="container"
+              <div class="container"                
               <form action="/action_page.php">
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your First Name..">
