@@ -21,7 +21,7 @@ scroll-snap-type: y mandatory;
 }
 
 .navbar {
-  position: fixed;  /* the position is fixed for the navigation bar because you always want it on top of whatever page you're on, if it woulnd't be fixed then the smooth scroll behavior wouldn't work properly */
+  position: fixed;  /* the position is fixed for the navigation bar because you always want it on top of whatever page you're on, if it wouldn't be fixed then the smooth scroll behavior wouldn't work properly */
   top: 0;
   z-index: 1; 
   display: flex;
